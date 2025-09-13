@@ -4,6 +4,7 @@ import "@/app/globals.css"; // Import Tailwind styles
 
 import Footer from "./components/Footer";
 import Cursor from "./components/ui/Cursor";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Nahom | Portfolio",
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Cursor />
         </div>
         {children}
+        <SpeedInsights />
         <Footer />
       </body>
     </html>

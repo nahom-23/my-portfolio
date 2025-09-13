@@ -7,6 +7,8 @@ import AboutSection from "./components/AboutSection";
 import ContactSection from "./components/ContactSection";
 import LoadingScreen from "./components/LoadingScreen";
 
+
+
 export default function Home() {
   return (
     <main className="bg-[#0a0a0a] text-white min-h-screen">
