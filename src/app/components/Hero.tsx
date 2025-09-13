@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
         {/* Descriptive Paragraph - Centered */}
         <AnimatedWrapper delay={600} direction="up" duration={0.8}>
           <p className="text-gray-400 text-center mb-8 max-w-xs sm:max-w-sm text-sm sm:text-base leading-relaxed px-2">
-            He crafts responsive websites where technologies meet creativityI build interactive websites using modern technologies to crafts responsive websites where technologies meet creativity
+            I build interactive websites using modern technologies to crafts responsive websites where technologies meet creativity
           </p>
         </AnimatedWrapper>
 
