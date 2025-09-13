@@ -16,13 +16,13 @@ const Project: React.FC = () => {
             <span className="text-green-400">#</span>projects
           </h3>
           <p className="font-medium">
-            <Link href="/projects" className="hover:text-green-400 transition-colors text-lg">
+            <Link href="/projects" className="hover:text-green-400 transition-colors text-lg whitespace-nowrap">
               View All →
             </Link>
           </p>
         </div>
       </AnimatedWrapper>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-8 mt-8 lg:mt-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-8 mt-8 lg:mt-12 justify-items-center">
         {sampleProjects.map((project, index) => (
           <AnimatedWrapper key={project.id} delay={300 + index * 150} direction="up" duration={0.8}>
             <div>
