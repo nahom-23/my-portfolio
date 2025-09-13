@@ -30,9 +30,9 @@ const Hero: React.FC = () => {
             <h1 className="text-2xl sm:text-3xl font-bold leading-tight">
               <AdvancedTypewriter
                 lines={[
-                  "Nahom is a web",
-                  "designer and",
-                  "front-end",
+                  "Nahom is a Full-Stack",
+                  "developer and",
+                  "Odoo",
                   "developer"
                 ]}
                 speed={100}
@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
           <AnimatedWrapper delay={300} direction="left" duration={1.0}>
             <h2 className="text-4xl lg:text-5xl font-medium text-green-400">
               <AdvancedTypewriter
-                lines={["Nahom is a web developer and full-stack developer"]}
+                lines={["Nahom is full-stack and odoo developer"]}
                 speed={70}
                 delay={500}
                 className="text-green-400"

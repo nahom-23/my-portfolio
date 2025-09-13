@@ -1,6 +1,5 @@
 // src/components/ProjectCard.tsx
-import Image from "next/image";
-import projects from "../const/projects";
+import Image, { StaticImageData } from "next/image";
 
 interface ProjectProps {
   id: string;
@@ -12,7 +11,7 @@ interface ProjectProps {
   };
   hasImage?: boolean;
   isSmall?: boolean;
-  image: string | any; // Allow StaticImageData
+  image: string | StaticImageData | null;
 }
 
 const ProjectCard: React.FC<ProjectProps> = ({
@@ -20,7 +19,6 @@ const ProjectCard: React.FC<ProjectProps> = ({
   techs,
   detail,
   link,
-  isSmall,
   hasImage,
   image
 }) => {

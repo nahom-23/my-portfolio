@@ -36,7 +36,7 @@ const ContactUs = () => {
 
       setSubmitStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
-    } catch (error) {
+    } catch {
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -62,7 +62,7 @@ const ContactUs = () => {
             <div>
               <h4 className="text-2xl font-semibold mb-4 text-[#26FF9A]">Get In Touch</h4>
               <p className="text-gray-400 text-lg leading-relaxed">
-                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+                I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
               </p>
             </div>
 
@@ -179,7 +179,7 @@ const ContactUs = () => {
             {/* Submit Status Messages */}
             {submitStatus === 'success' && (
               <div className="p-4 bg-green-500/20 border border-green-500/50 rounded-lg">
-                <p className="text-green-400">Thank you! Your message has been sent successfully. I'll get back to you soon.</p>
+                <p className="text-green-400">Thank you! Your message has been sent successfully. I&apos;ll get back to you soon.</p>
               </div>
             )}
 

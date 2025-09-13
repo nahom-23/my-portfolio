@@ -15,9 +15,9 @@ const About: React.FC = () => {
       <AnimatedWrapper delay={400} direction="up" duration={0.8}>
         <div className="max-w-4xl">
           <p className="text-gray-400 text-base sm:text-lg lg:text-xl leading-relaxed">
-            Hi, I'm Nahom Birhanu
+            Hi, I&apos;m Nahom Birhanu
             <br /><br />
-            I'm a Full-Stack and Odoo Developer based in Addis Ababa. I build responsive web apps and business solutions using modern technologies. With a strong focus on clean design and functionality, I help clients turn ideas into real products. Always learning. Always building.
+            I&apos;m a Full-Stack and Odoo Developer based in Addis Ababa. I build responsive web apps and business solutions using modern technologies. With a strong focus on clean design and functionality, I help clients turn ideas into real products. Always learning. Always building.
           </p>
         </div>
       </AnimatedWrapper>

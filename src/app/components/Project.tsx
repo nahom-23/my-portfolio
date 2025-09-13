@@ -2,7 +2,6 @@
 import ProjectCard from "../components/ProjectCard";
 import Link from "next/link";
 import projects from "../const/projects";
-import { div } from "motion/react-client";
 import AnimatedWrapper from "./AnimatedWrapper";
 
 const Project: React.FC = () => {
