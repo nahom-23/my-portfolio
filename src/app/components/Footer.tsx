@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
           </a>
 
           <a
-            href="https://t.me/nahom_23"
+            href="https://t.me/noah_23"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
       {/* Desktop Footer */}
       <div className="hidden md:block">
         <div className="flex justify-between items-center">
-          <p>© 2024 Nahom | Web Developer</p>
+          <p>© 2025 Nahom | Software Developer</p>
 
           {/* Social Media Links */}
           <div className="flex space-x-6">
@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
             </a>
 
             <a
-              href="https://t.me/nahom_23"
+              href="https://t.me/noah_23"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors duration-300"
