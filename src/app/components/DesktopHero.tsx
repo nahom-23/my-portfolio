@@ -30,7 +30,7 @@ const DesktopHero: React.FC = () => {
 
             {/* Descriptive Paragraph */}
             <p className="text-gray-400 text-center mb-10 max-w-lg text-lg leading-relaxed">
-                He crafts responsive websites where technologies meet creativity
+               I build interactive websites using modern technologies to crafts responsive websites where technologies meet creativity
             </p>
 
             {/* Status Indicator */}
@@ -38,7 +38,7 @@ const DesktopHero: React.FC = () => {
                 <div className="w-4 h-4 bg-[#26FF9A] rounded-sm flex-shrink-0"></div>
                 <div className="flex items-center space-x-2">
                     <span className="text-gray-400">Currently working on</span>
-                    <span className="text-white font-semibold">Portfolio</span>
+                    <span className="text-white font-semibold">MERN stack</span>
                 </div>
             </div>
         </section>

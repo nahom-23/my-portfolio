@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
         {/* Descriptive Paragraph - Centered */}
         <AnimatedWrapper delay={600} direction="up" duration={0.8}>
           <p className="text-gray-400 text-center mb-8 max-w-xs sm:max-w-sm text-sm sm:text-base leading-relaxed px-2">
-            He crafts responsive websites where technologies meet creativity
+            He crafts responsive websites where technologies meet creativityI build interactive websites using modern technologies to crafts responsive websites where technologies meet creativity
           </p>
         </AnimatedWrapper>
 
@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
             <div className="w-3 h-3 bg-[#26FF9A] rounded-sm flex-shrink-0"></div>
             <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2">
               <span className="text-gray-400 text-sm">Currently working on</span>
-              <span className="text-white font-semibold text-sm">Portfolio</span>
+              <span className="text-white font-semibold text-sm">MERN stack</span>
             </div>
           </div>
         </AnimatedWrapper>
